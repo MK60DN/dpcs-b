@@ -36,7 +36,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/dpcs-b.git
+git clone https://github.com/MK60DN/dpcs-b.git
 cd dpcs-b
 
 # 创建并激活虚拟环境
