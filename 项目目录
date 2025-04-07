@@ -1,0 +1,73 @@
+```
+dpcs-b/
+├── LICENSE                    # MIT许可证文件
+├── README.md                  # 项目主要文档
+├── CONTRIBUTING.md            # 贡献指南
+├── INSTALLATION.md            # 详细安装指南
+├── MANIFEST.in                # 包含文件配置
+├── setup.py                   # 安装配置文件
+├── requirements.txt           # 依赖列表
+├── docs/                      # 文档目录
+│   ├── architecture.md        # 架构说明
+│   ├── api.md                 # API文档
+│   ├── examples.md            # 示例说明文档
+│   └── images/                # 图片资源
+│       └── architecture.png   # 架构图
+├── dpcs/                      # 主源代码目录
+│   ├── __init__.py            # 包初始化文件
+│   ├── system.py              # 主系统类
+│   ├── run_example.py         # 示例运行工具
+│   ├── modules/               # 核心模块目录
+│   │   ├── __init__.py        # 模块包初始化
+│   │   ├── srmt.py            # 左脑模块
+│   │   ├── camel.py           # 右脑模块
+│   │   ├── spatial.py         # 中脑模块
+│   │   ├── callosum.py        # 胼胝体模块
+│   │   ├── cerebellum.py      # 小脑模块
+│   │   └── prefrontal.py      # 额叶模块
+│   ├── blockchain/            # 区块链组件目录
+│   │   ├── __init__.py        # 区块链包初始化
+│   │   ├── da_layer.py        # 数据可用性层
+│   │   └── rollup_layer.py    # 计算聚合层
+│   ├── interface/             # 用户界面目录
+│   │   ├── __init__.py        # 界面包初始化
+│   │   └── file_upload.py     # 文件上传界面
+│   ├── examples/              # 内部示例目录
+│   │   ├── __init__.py        # 示例包初始化
+│   │   └── case_adapter.py    # 案例适配器
+│   ├── utils/                 # 工具函数目录
+│   │   ├── __init__.py        # 工具包初始化
+│   │   ├── memory.py          # 内存管理
+│   │   ├── parallel.py        # 并行处理
+│   │   └── optimization.py    # 优化工具
+│   └── config/                # 配置目录
+│       ├── __init__.py        # 配置包初始化
+│       └── default.py         # 默认配置
+├── examples/                  # 外部示例目录
+│   ├── __init__.py            # 示例初始化
+│   ├── README.md              # 示例说明文档
+│   ├── basic_usage.py         # 基本使用示例
+│   ├── inventory_control_example.py   # 库存控制示例
+│   ├── forecast_example.py    # 需求预测示例
+│   ├── cost_tracking_example.py  # 成本跟踪示例
+│   ├── distributed_agents_example.py  # 分布式代理示例
+│   ├── integrated_system_example.py   # 综合系统示例
+│   └── interactive_simulation.py  # 交互式模拟GUI
+├── tests/                     # 测试目录
+│   ├── __init__.py            # 测试包初始化
+│   ├── test_system.py         # 系统测试
+│   ├── test_modules/          # 模块测试
+│   │   ├── __init__.py        # 模块测试初始化
+│   │   ├── test_srmt.py       # 左脑模块测试
+│   │   ├── test_camel.py      # 右脑模块测试
+│   │   ├── test_spatial.py    # 中脑模块测试
+│   │   ├── test_callosum.py   # 胼胝体模块测试
+│   │   ├── test_cerebellum.py # 小脑模块测试
+│   │   └── test_prefrontal.py # 额叶模块测试
+│   └── test_blockchain/       # 区块链测试
+│       ├── __init__.py        # 区块链测试初始化
+│       ├── test_da_layer.py   # 数据可用性层测试
+│       └── test_rollup_layer.py  # 计算聚合层测试
+└── temp_uploads/              # 临时上传目录（自动创建）
+    └── README.md              # 临时目录说明
+```

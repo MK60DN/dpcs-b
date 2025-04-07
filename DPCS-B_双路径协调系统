@@ -1,0 +1,123 @@
+# DPCS-B: 双路径协调系统 (Dual Path Coordination System)
+
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+基于脑科学启发的双路径协调系统，集成区块链技术的创新计算架构。
+
+## 系统概述
+
+双路径协调系统(DPCS-B)采用模块化设计理念，将脑科学启发的计算架构与区块链技术有机集成。系统架构分为三层：
+
+1. **计算层**：包含六大神经认知模块
+   - 左脑（结构化强化学习模块）
+   - 右脑（语义理解与语言生成模块）
+   - 中脑（路由选择器）
+   - 胼胝体（信息融合模块）
+   - 小脑（时序同步模块）
+   - 额叶（执行控制模块）
+
+2. **数据层**：由数据可用性层(DA)和计算聚合层(Rollup)组成
+
+3. **接口层**：提供用户交互、API调用和外部系统集成能力
+
+## 核心特性
+
+- **动态路径选择**：通过中脑模块实现任务特征分析和路径自适应选择
+- **多模态处理**：支持结构化数据和非结构化文本的双路径协同处理
+- **信息融合机制**：通过胼胝体模块实现跨模态信息对齐与融合
+- **区块链集成**：提供数据透明性和处理可验证性
+- **元认知能力**：具备对处理质量的自我评估机制
+
+## 快速开始
+
+### 环境配置
+
+```bash
+# 克隆仓库
+git clone https://github.com/yourusername/dpcs-b.git
+cd dpcs-b
+
+# 创建并激活虚拟环境
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# 安装依赖
+pip install -r requirements.txt
+```
+
+### 基本使用
+
+```python
+from dpcs.system import DualPathCoordinationSystem
+
+# 初始化系统
+dpcs = DualPathCoordinationSystem()
+
+# 处理输入数据
+result = dpcs.process("这是一个需要处理的文本输入", input_type="text")
+
+# 查看处理结果
+print(result)
+```
+
+## 系统架构
+
+![DPCS-B架构](docs/images/architecture.png)
+
+系统的详细架构图展示了各模块间的连接关系和数据流。
+
+## 模块说明
+
+### 左脑模块 (SRMT)
+
+结构化强化学习模块，基于Actor-Critic架构，适合处理结构化数据和规则任务。
+
+### 右脑模块 (CAMEL Agent)
+
+语义理解与语言生成模块，基于大型语言模型架构，适合处理自然语言和语义任务。
+
+### 中脑模块 (Spatial Detector)
+
+路由选择器，负责动态决策使用哪条处理路径。
+
+### 胼胝体模块 (Corpus Callosum)
+
+信息融合模块，负责左右脑信息的对齐与整合。
+
+### 小脑模块 (Cerebellum Synchronizer)
+
+时序同步模块，处理时序信息并确保系统各部分的同步协调。
+
+### 额叶模块 (Prefrontal Cortex)
+
+执行控制模块，负责整合信息、形成意识表示和生成控制信号。
+
+### 区块链组件
+
+包括数据可用性层和计算聚合层，实现数据的透明存储和高效处理。
+
+## 应用案例
+
+- 金融决策系统
+- 智能客服
+- 医疗辅助诊断
+- 科学研究助手
+
+## 性能优化
+
+系统实现了多种性能优化技术：
+
+- 计算优化：混合精度训练、JIT编译、模型量化
+- 内存管理优化：自适应批处理大小、梯度检查点
+- 并行处理优化：数据并行、分布式并行、模型并行
+- 区块链优化：批量数据处理、分层存储策略
+
+## 贡献指南
+
+欢迎贡献代码或提出建议。请参阅[贡献指南](CONTRIBUTING.md)了解详情。
+
+## 许可证
+
+本项目采用MIT许可证。详见[LICENSE](LICENSE)文件。
