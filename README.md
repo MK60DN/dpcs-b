@@ -128,22 +128,22 @@ DPCS-B框架支持上传并运行自定义库存管理案例。通过图形界�
 
 ## 系统架构
 
-![DPCS-B架构](docs/images/architecture.png)
+![DPCS-B架构](docs/images/架构.png)
 
 系统的详细架构图展示了各模块间的连接关系和数据流。
 
 ## 模块说明
 
 ### 左脑模块 (SRMT)
-
+![DPCS-B](docs/images/左脑.png)
 结构化强化学习模块，基于Actor-Critic架构，适合处理结构化数据和规则任务。
 
 ### 右脑模块 (CAMEL Agent)
-
+![DPCS-B](docs/images/右脑.png)
 语义理解与语言生成模块，基于大型语言模型架构，适合处理自然语言和语义任务。
 
 ### 中脑模块 (Spatial Detector)
-
+![DPCS-B](docs/images/中脑与胼胝体.png)
 路由选择器，负责动态决策使用哪条处理路径。
 
 ### 胼胝体模块 (Corpus Callosum)
@@ -151,7 +151,7 @@ DPCS-B框架支持上传并运行自定义库存管理案例。通过图形界�
 信息融合模块，负责左右脑信息的对齐与整合。
 
 ### 小脑模块 (Cerebellum Synchronizer)
-
+![DPCS-B](docs/images/小脑与额叶.png)
 时序同步模块，处理时序信息并确保系统各部分的同步协调。
 
 ### 额叶模块 (Prefrontal Cortex)
@@ -159,7 +159,7 @@ DPCS-B框架支持上传并运行自定义库存管理案例。通过图形界�
 执行控制模块，负责整合信息、形成意识表示和生成控制信号。
 
 ### 区块链组件
-
+![DPCS-B](docs/images/DA与Rollup.png)
 包括数据可用性层和计算聚合层，实现数据的透明存储和高效处理。
 
 ## 应用案例
